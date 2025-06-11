@@ -82,7 +82,7 @@ $pagination = $filtered_data['pagination'];
                            <?php echo htmlspecialchars($category['ten_loai']); ?>
                         </option>
                      <?php endforeach; ?>
-                     <?php echo "<script>console.log(" . json_encode($categories) . ");</script>";?>
+                     <?php echo "<script>console.log(" . json_encode($categories) . ");</script>"; ?>
                   </select>
                </div>
                <div class="filter-group">

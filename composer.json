@@ -1,0 +1,13 @@
+{
+    "name": "thanh/book_store",
+    "description": "simple php-based book store project",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Thanh\\BookStore\\": "src/"
+        }
+    },
+    "require": {
+        "vlucas/phpdotenv": "^5.6"
+    }
+}
